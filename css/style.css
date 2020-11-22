@@ -210,6 +210,12 @@ a, a:hover{
     line-height: 24px;
     color: #a3b1bf;
 }
+.portfolio .card{
+	transition: 1s;
+}
+.portfolio .card:hover{
+	box-shadow: 20px 20px 20px grey;
+}
 .portfolio .card-body .card-title {
     margin: 0px 0px 2px;
     font-size: 18px;
@@ -220,4 +226,43 @@ a, a:hover{
 	font-size: 14px;
     line-height: 24px;
     color: #a3b1bf;
+}
+
+/*Want to work section*/
+.want-to-work{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.want-to-work .title{
+	width: 100%;
+}
+.want-to-work .title h1{
+	font-size: 42px;
+    font-weight: 700;
+    color: #506a85;
+}
+.want-to-work .title p{
+	font-size: 15px;
+    line-height: 24px;
+    color: #a3b1bf;
+    padding: 20px;
+}
+.want-to-work .btn-info{
+	padding: 10px 10px;
+	background: #00bc9c;
+	color: #fff;
+	border: 1px solid #00bc9c;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	/*margin-top: 5px;*/
+	transition: 1s;
+}
+.want-to-work .btn-info:hover, .want-to-work .btn-info:focus{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
 }
