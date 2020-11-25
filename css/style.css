@@ -52,6 +52,7 @@ a, a:hover{
 
 .info .fa{
 	margin-right: 10px;
+	font-weight: 600;
 }
 
 .social-icons{
@@ -111,6 +112,7 @@ a, a:hover{
 .main-menu .fa-search{
 	font-size: 14px;
 	color: #506a85;
+	cursor: pointer;
 }
 
 
@@ -212,6 +214,8 @@ a, a:hover{
 }
 .portfolio .card{
 	transition: 1s;
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 .portfolio .card:hover{
 	box-shadow: 20px 20px 20px grey;
@@ -227,6 +231,22 @@ a, a:hover{
     line-height: 24px;
     color: #a3b1bf;
 }
+.portfolio .card .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.portfolio .owl-carousel{
+	padding: 60px 0px;
+
+}
+.portfolio .owl-theme .owl-dots .owl-dot.active span, .portfolio .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+.portfolio .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+
 
 /*Want to work section*/
 .want-to-work{
@@ -265,4 +285,134 @@ a, a:hover{
 	background: transparent;
 	color: #00bc9c;
 	border: 1px solid #00bc9c;
+}
+
+
+/*footer section starts*/
+.footer-section{
+	width: 100%;
+}
+.top-footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.inner-widget{
+
+}
+.inner-widget h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 32px;
+	margin-bottom: 25px;
+}
+.inner-widget .innerImg{
+	margin-bottom: 25px;
+}
+.inner-widget p{
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	color: #9eacba;
+}
+.inner-widget .flink{
+	font-size: 17px;
+	font-weight: 700;
+	color: #9eacba;
+	transition: 1s;
+}
+.inner-widget .flink:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.inner-widget .fa{
+	margin-left: 10px;
+	line-height: 22px;
+}
+
+.inner-widget .img-fluid{
+	margin: 5px 0px 10px 15px;
+	transition: 1s;
+}
+.inner-widget .img-fluid:hover{
+	box-shadow: 10px 10px 10px black;
+}
+.padd{
+	padding: 0px !important;
+}
+.inner-widget .info .fa{
+	margin: 0px 10px 0px 0px;
+}
+
+.inner-widget .form{
+	position: relative;
+}
+.inner-widget .form .btn-primary {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    padding: 4px 7px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.inner-widget .form .btn-primary:hover{
+	background: transparent;;
+	color: #00bc9c;
+}
+.inner-widget .form .form-control {
+    background: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    padding: 20px 4px;
+    font-size: 14px;
+    height: 20px;
+}
+/*Bottom footer starts*/
+.bottom-footer{
+	width: 100%;
+	background: #283645;
+}
+.bottom-footer .inner-widget p{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 25px 0px;
+	color: #9eacba;
+}
+
+.bottom-footer ul{
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px;
+	margin: 25px 0px;
+	color: #9eacba;
+}
+
+.bottom-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.bottom-footer ul li a{
+	color: #9eacba;
+	transition: 1s;
+}
+.bottom-footer ul li a:hover{
+	color:#fff;
+}
+.bottom-footer .dot {
+    position: relative;
+    height: 2px;
+    width: 2px;
+    background-color: #9eacba;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    margin-bottom: 2px;
 }
